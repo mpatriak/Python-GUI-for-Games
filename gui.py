@@ -17,9 +17,8 @@ mainframe.pack_propagate(0)
 mainframe.pack(padx = 5, pady = 5)
 
 # define an intro to display in the window
-intro = Label(mainframe, text = """Welcome to Michal Patriak's MiniGame
-                                Collection. Please select one of the
-                                following games to play: """)
+intro = Label(mainframe, text = """Welcome to Michal Patriak's MiniGame Collection.
+Please select one of the following games to play: """)
 # display the intro
 intro.pack(side = TOP)
 
