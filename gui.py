@@ -27,6 +27,14 @@ rps_button = Button(mainframe, text = "Rock, Paper, Scissors",
                     command = rockpaperscissors.gui)
 rps_button.pack()
 
+# create a button for hangman
+hm_button = Button(mainframe, text = "Hangman", command = hangman.start)
+hm_button.pack()
+
+# create a button for poker dice
+pd_button = Button(mainframe, text = "Poker Dice", command = pokerdice.start)
+pd_button.pack()
+
 # exit button
 exit_button = Button(mainframe, text = "Quit", command = root.destroy)
 exit_button.pack(side = BOTTOM)
